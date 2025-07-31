@@ -1,0 +1,35 @@
+.weatherDashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* Spacing between sections */
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  color: #ac9898;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #0362c9; /* Primary blue for header */
+}
+
+.error, .loading {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.error {
+  background-color: #ffe0e0;
+  color: #d32f2f;
+  border: 1px solid #d32f2f;
+}
+
+.loading {
+  background-color: #e0f2f7;
+  color: #0288d1;
+  border: 1px solid #0288d1;
+}

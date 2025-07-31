@@ -1,0 +1,40 @@
+.forecastCard {
+  background-color: #67717a;
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.forecastDate {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 8px;
+}
+
+.temps {
+  font-size: 1.2em;
+  margin: 8px 0;
+  color: #555;
+}
+
+.highTemp {
+  color: #a7343f; /* Red for high temp */
+  font-weight: bold;
+}
+
+.lowTemp {
+  color: #013975; /* Blue for low temp */
+  font-weight: bold;
+}
+
+.forecastCondition {
+  font-size: 0.9em;
+  color: #181010;
+  text-transform: capitalize;
+}

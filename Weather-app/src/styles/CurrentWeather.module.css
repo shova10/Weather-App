@@ -1,0 +1,55 @@
+.currentWeatherCard {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.cityName {
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #c2d6eb;
+  margin-bottom: 10px;
+}
+
+.temperature {
+  font-size: 4em;
+  font-weight: bold;
+  color: #014ba0;
+  margin-bottom: 5px;
+}
+
+.condition {
+  font-size: 1.4em;
+  color: #c2d6eb;
+  margin-bottom: 15px;
+  text-transform: capitalize; /* Capitalize first letter */
+}
+
+.detailsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.detailItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1em;
+  color: #c2d6eb;
+}
+
+.detailValue {
+  font-weight: bold;
+  color: #c2d6eb;
+  margin-top: 5px;
+}
